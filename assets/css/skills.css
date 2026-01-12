@@ -1,43 +1,61 @@
-.skills {
-    display: flex;
-    flex-direction: column;
+.habilidades {
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    #hard{
+        display: flex;
+        flex-direction: column;
+        gap: .75rem;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+        
+            li {
+                margin-left: 1.5rem;
+                padding: .5rem;    
+            }
+
+            img {
+                max-width: 50px;
+                margin: 0 .5rem;
+            }
+        }
+    }
+
+    #soft ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        
+        li {
+            margin-left: 2rem;
+            padding: .5rem;
+            list-style-type: circle;
+        }
+    }
 }
 
-.skills .tools ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
 
-.skills .tools ul li img {
-    max-width: 50px;
-    max-height: 50px;
-    margin: 0 .5rem;
-}
 
-.skills .personal ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-}
-
-.skills .personal ul li {
-    margin-left: 2rem;
-    padding: .5rem
-}
-
-@media only screen and (min-width: 768px) {
-    .skills {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+/* MEDIA QUERIES */
+@media screen and ( min-width: 768px ) {
+    .habilidades {
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
     }
 }
