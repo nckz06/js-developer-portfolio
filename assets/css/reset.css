@@ -1,0 +1,15 @@
+/* IMPORTACAO DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* CONFIGURACAO DE RESET */
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}

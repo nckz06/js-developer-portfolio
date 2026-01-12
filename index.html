@@ -1,120 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Renan J Paula</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
-
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/acordeon.css">
-    <link rel="stylesheet" href="assets/css/languages.css">
-    <link rel="stylesheet" href="assets/css/portfolio.css">
-    <link rel="stylesheet" href="assets/css/experience.css">
-    <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
+    <title>Portfólio Nicolas S Nogueira</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-
 <body>
-    <main class="main">
-        <header class="header">
-            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
-
-            <h1 class="title">
-                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
-            </h1>
-
+    <div id="background-page">
+        <header>
+            <img src="./assets/img/eu.png" alt="Foto de Perfil" class="photo">
             <div class="information">
-                <p class="job" id="profile.job">Carregando...</p>
-                <p class="location" id="profile.location">Carregando...</p>
-                <p class="phone">
-                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
-                </p>
-                <p class="email">
-                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
-                </p>
+                <h1 class="title">Olá, <br>eu sou Nicolas S Nogueira</h1>
+                <ul class="list-information">
+                    <li>
+                        <img src="./assets/img/icon-job.png" class="icon-information">
+                        Jovem Aprendiz - General Motors
+                    </li>
+                    <li>
+                        <img src="./assets/img/icon-location.png" class="icon-information">
+                        SJC - São Paulo - BR
+                    </li>
+                    <li>
+                        <img src="./assets/img/icon-phone.png" class="icon-information">
+                        <a href="tel:(12) 9 8308-7644">(12) 9 8308-7644</a>
+                    </li>
+                    <li>
+                        <img src="./assets/img/icon-email.png" class="icon-information">
+                        <a href="mailto:nsn.nicolas@gmail.com">nsn.nicolas@gmail.com</a>
+                    </li>
+                </ul>
             </div>
         </header>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Skills</h2>
-            </button>
-
-            <div class="content">
-                <div class="skills">
-                    <section class="tools">
-                        <h3>Ferramentas:</h3>
-                        <ul id="profile.skills.hardSkills">
-                        </ul>
-                    </section>
-
-                    <section class="personal">
-                        <h3>Pessoal:</h3>
-                        <ul id="profile.skills.softSkills">
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                        </ul>
-                    </section>
+        <main>
+            <section class="habilidades acordeon">
+                <div class="trigger">
+                    <h2>Skills</h2>
+                    <span class="trigger-arrow"></span>
                 </div>
-            </div>
-        </section>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Idiomas</h2>
-            </button>
+                <div class="content">
+                    <div id="hard">
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li>
+                                <img src="./assets/img/icon-html.svg" alt="HTML" title="HTML">
+                            </li>
+                            <li>
+                                <img src="./assets/img/icon-css.svg" alt="CSS" title="CSS">
+                            </li>
+                            <li>
+                                <img src="./assets/img/icon-js.svg" alt="JavaScript" title="JavaScript">
+                            </li>
+                            <li>
+                                <img src="./assets/img/icon-sql.svg" alt="SQL" title="SQL">
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="soft">
+                        <h3>Habilidades Pessoais:</h3>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-            <div class="content">
-                <ul class="languages" id="profile.languages">
-                    <li>Carregando...</li>
-                </ul>
-            </div>
-        </section>
+            <section class="idioma acordeon">
+                <div class="trigger">
+                    <h2>Idiomas</h2>
+                    <span class="trigger-arrow"></span>
+                </div>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Portfólio</h2>
-            </button>
+                <div class="content">
+                    <ul>
+                        <li>Português (BR)</li>
+                        <li>Inglês</li>
+                    </ul>
+                </div>
+            </section>
 
-            <div class="content">
-                <ul class="portfolio" id="profile.portfolio">
-                </ul>
-            </div>
-        </section>
+            <section class="educacao acordeon">
+                <div class="trigger">
+                    <h2></h2>
+                    <span class="trigger-arrow"></span>
+                </div>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Experiência Profissional</h2>
-            </button>
+                <div class="content">
+                </div>
+            </section>
 
-            <div class="content">
-                <ul class="experience" id="profile.professionalExperience">
-                </ul>
-            </div>
-        </section>
+            <section class="portfolio acordeon">
+                <div class="trigger">
+                    <h2>Portfólio</h2>
+                    <span class="trigger-arrow"></span>
+                </div>
 
-        <footer>
-            <a href="https://www.dio.me/" target="_blank">
-                <img src="assets/img/dio.svg" alt="DIO">
-            </a>
-        </footer>
-    </main>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <span class="title github">Teste</span>
+                            <a href="https://www.google.com" target="_blank">Google</a>
+                        </li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="experiencia acordeon">
+                <div class="trigger">
+                    <h2>Experiência Profissional</h2>
+                    <span class="trigger-arrow"></span>
+                </div>
+    
+                <div class="content">
+                    <ul>
+                        <li>
+                            <span class="title">Teste</span>
+                            <span class="periodo">teste</span>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci praesentium, officiis libero quaerat blanditiis excepturi quisquam autem doloremque consequatur cum, assumenda harum nisi suscipit dignissimos. Molestias perspiciatis ratione adipisci voluptate.
+                            </p>
+                        </li>
+                        <li>
+                            <span class="title">Teste</span>
+                            <span class="periodo">teste</span>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci praesentium, officiis libero quaerat blanditiis excepturi quisquam autem doloremque consequatur cum, assumenda harum nisi suscipit dignissimos. Molestias perspiciatis ratione adipisci voluptate.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
 
-    <script src="assets/js/acordeon.js"></script>
-    <script src="assets/js/api.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
-
 </html>
+
+<!-- Otimização de Imagem: tinypng.com -->

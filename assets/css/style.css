@@ -1,0 +1,68 @@
+/* IMPORTACAO DE ARQUIVOS */
+@import url('reset.css');
+@import url('header.css');
+@import url('acordeon.css');
+
+
+
+/* APLICACOES GLOBAIS */
+body {
+    margin: 1rem;
+    background-color: #000;
+    color: #fff;
+}
+
+body #background-page {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: .75rem;
+}
+
+body::before,
+body::after {
+    content: '';
+    position: fixed;
+    display: inline-block;
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+body::before {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../img/background-top.svg');
+}
+
+body::after {
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../img/background-bottom.svg');
+    background-position: bottom right;
+}
+
+main {
+    margin: 1rem;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and ( min-width: 768px ) {
+
+    body #background-page {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+    body::before,
+    body::after {
+        width: 70vw;
+    }
+
+}
