@@ -9,23 +9,23 @@
     "hardSkills": [
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/nckz06/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "logo": "https://raw.githubusercontent.com/nckz06/js-developer-portfolio/main/data/imgs/html.png"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/nckz06/js-developer-portfolio/main/data/imgs/java.png"
+        "logo": "https://raw.githubusercontent.com/nckz06/js-developer-portfolio/main/data/imgs/css.png"
       },
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/nckz06/js-developer-portfolio/main/data/imgs/angular.png"
+        "logo": "https://raw.githubusercontent.com/nckz06/js-developer-portfolio/main/data/imgs/js.png"
       },
       {
         "name": "MySQL",
-        "logo": "https://raw.githubusercontent.com/nckz06/js-developer-portfolio/main/data/imgs/react.png"
+        "logo": "https://raw.githubusercontent.com/nckz06/js-developer-portfolio/main/data/imgs/mysql.png"
       },
       {
         "name": "Python",
-        "logo": "https://raw.githubusercontent.com/nckz06/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "logo": "https://raw.githubusercontent.com/nckz06/js-developer-portfolio/main/data/imgs/python.png"
       }
     ],
     "softSkills": [
