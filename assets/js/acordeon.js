@@ -1,15 +1,15 @@
-
+// ANIMACAO PARA O ACORDEON
 const acordeonTriggers = document.querySelectorAll('.acordeon .trigger')
 
-acordeonTriggers.forEach((trigger) => {
-    trigger.addEventListener('click', (e) => {
+acordeonTriggers.forEach(trigger => {
+    trigger.addEventListener('click', () => {
         const acordeon = trigger.parentElement
-        const isOpen = acordeon.classList.contains('open')
+        const isActive = acordeon.classList.contains('active')
 
-        if (isOpen) {
-            acordeon.classList.remove('open')
+        if (isActive) {
+            acordeon.classList.remove('active')
         } else {
-            acordeon.classList.add('open')
+            acordeon.classList.add('active')
         }
     })
 })
