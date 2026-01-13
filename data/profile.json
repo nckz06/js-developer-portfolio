@@ -40,20 +40,53 @@
     "Português BR",
     "Inglês (intermediário)"
   ],
+  "education": [
+    {
+      "name": "Curso Técnico de Desenvolvimento de Sistemas",
+      "date": "agosto de 2025 - até o momento",
+      "description": "",
+      "time": "",
+      "url": ""
+    },  
+    {
+      "name": "Formação JavaScript Developer",
+      "date": "janeiro de 2026",
+      "time": "39 horas",
+      "description": "Foi aprendido JavaScript do zero, em uma abordagem de ensino totalmente imersiva e prática. Nesta formação, foi ensinado desde os fundamentos desta linguagem de programação até o seu papel essencial na Web atualmente. Apresentando uma dinâmica diferente, onde o expert conduziu todo o primeiro módulo usando a técnica de 'pair programming', ensinando o JavaScript do zero para um profissional em transição de carreira. Nos dois módulos seguintes, foi apresentado os conceitos necessários para utilizar o JavaScript na Web, com ênfase no consumo de APIs, convenções e boas práticas.",
+      "url": ""
+    },
+    {
+      "name": "Formação CSS Web Developer",
+      "date": "agosto de 2025",
+      "time": "43 horas",
+      "description": "Dê o próximo passo na sua jornada no mundo do Front-end aprendendo a estilizar e turbinar ainda mais suas páginas Web com Cascading Style Sheets, o famoso CSS. Aprenda na prática a como organizar sua folha de estilos, saiba como trabalhar com animações e domine boas práticas para se tornar um profissional ainda mais bem preparado para criar ou replicar qualquer layout rico quando se trata do posicionamento de elementos em tela e estilização.",
+      "url": "https://hermes.dio.me/certificates/YM38FKWR.pdf"
+    },
+    {
+      "name": "Formação HTML Web Developer",
+      "date": "junho de 2025",
+      "time": "21 horas",
+      "description": "entenda como trabalhar com HTML, a base para criar suas primeiras páginas WEB! Aprenda na prática a como estruturar a marcação da sua página e como funciona cada tag, conheça os elementos semânticos e outras boas práticas na hora de construir sua primeira página.",
+      "url": "https://hermes.dio.me/certificates/O1OBBCMY.pdf"
+    }
+  ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/nckz06/Pringles",
+      "name": "DevArt: Projeto de Alto Valor - Edição Pringles",
+      "url": "https://nckz06.github.io/Pringles/",
+      "description": "Para alcançar o resultado esperado, o design foi realizado com o apoio das ferramentas Figma e PhotoShop. Após a obtenção de um design agradável, o protótipo foi desenvolvido com as linguagens HTML, CSS e JavaScript. Como principal foco do projeto, o aprendizado sobre as bibliotecas GSAP e Split Type do Javascript para a criação de animações dinâmicas que acontecem durante o rolamento da página.",
       "github": true
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/nckz06/hbomax",
+      "url": "https://nckz06.github.io/hbomax/",
+      "description": "Clone do HBOMax com HTML e CSS contendo algumas modificações. Projeto de desafio final para a Trilha de CSS da Digital Innovation One. Para acrescentar elementos diferentes ao site original, foram criados elementos animados com CSS para agregar à experiência do usuário.",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página sobre Multiverso Homem-Aranha",
-      "url": "https://github.com/nckz06/spider-man-multiverse",
+      "name": "Projeto DIO: Multiverso Homem-Aranha",
+      "url": "https://nckz06.github.io/spider-man-multiverse/",
+      "description": "O objetivo do projeto é demonstrar os principais efeitos de CSS e explorar o máximo de animações para construir um layout rico baseado no multiverso do homem-aranha. Para a construção do projeto foram utilizados linguagens como: HTML, CSS e JavaScript. Com foco em pseudo-elementos, pseudo-classes, carousel 3D, translate e rotate no CSS, entre outras funcionalidades para agregar à página.",
       "github": true
     }
   ],
@@ -61,17 +94,17 @@
     {
       "name": "Jovem Aprendiz / General Motors",
       "period": "agosto de 2025 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "description": ""
     },
     {
       "name": "Jovem Aprendiz / Akaer Engenharia S.A.",
       "period": "agosto de 2024 - julho de 2025",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "description": "Responsável pela manutenção, suporte e configuração da plataforma SoftExpert Suite (SE Suite), mantendo a funcionalidade das operações e melhorias nos processos corporativos; Elaboração de queries em SQL para análise e visualização de dados, como forma de fornecer insights sobre alterações e históricos do sistema, sendo integradas ao SE Suite para uso prático por diferentes áreas da empresa; Mapeamento e construção de fluxogramas de processos utilizando ferramentas específicas, com o objetivo de facilitar a compreensão e o redesenho de processos."
     },
     {
       "name": "Auxiliar de Loja / Americanas S.A.",
       "period": "maio de 2024 - julho de 2024",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "description": "Operação de caixa e atendimento ao cliente; Estocagem e reabastecimento dos produtos tanto almoxarifado quanto dentro do próprio estabelecimento, além de fornecer auxílio na organização e distribuição de produtos no varejo."
     }
   ]
 }
