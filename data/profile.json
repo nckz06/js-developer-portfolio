@@ -1,5 +1,5 @@
 {
-  "name": "Nicolas S Nogueira",
+  "name": "Nicolas Silva Nogueira",
   "photo": "https://avatars.githubusercontent.com/u/132695547?s=400&u=683edd9ad52c82697e44845092a06750e0ea8e05&v=4",
   "job": "Jovem Aprendiz na General Motors",
   "location": "São José dos Campos - SP",
@@ -30,10 +30,11 @@
     ],
     "softSkills": [
       "Empatia",
-      "Liderança",
-      "Trabalho em equipe",
+      "Observação",
       "Flexibilidade",
-      "Organização"
+      "Organização",
+      "Trabalho em equipe",
+      "Resolução de problemas técnicos"
     ]
   },
   "languages": [
@@ -43,30 +44,30 @@
   "education": [
     {
       "name": "Curso Técnico de Desenvolvimento de Sistemas",
-      "date": "agosto de 2025 - até o momento",
-      "description": "",
-      "time": "",
+      "date": "Em andamento",
+      "time": "1200 horas",
+      "description": "Dentro do curso Técnico de Desenvolvimento de Sistemas, será lecionado sobre as seguintes matérias: Lógica de Programação e Algoritmos, Sistemas Operacionais, Levantamento de Requisitos, Arquitetura de Redes com IoT, Banco de Dados, Programação Front-End e Back-End, entre outros conteúdos.",
       "url": ""
     },  
     {
       "name": "Formação JavaScript Developer",
       "date": "janeiro de 2026",
       "time": "39 horas",
-      "description": "Foi aprendido JavaScript do zero, em uma abordagem de ensino totalmente imersiva e prática. Nesta formação, foi ensinado desde os fundamentos desta linguagem de programação até o seu papel essencial na Web atualmente. Apresentando uma dinâmica diferente, onde o expert conduziu todo o primeiro módulo usando a técnica de 'pair programming', ensinando o JavaScript do zero para um profissional em transição de carreira. Nos dois módulos seguintes, foi apresentado os conceitos necessários para utilizar o JavaScript na Web, com ênfase no consumo de APIs, convenções e boas práticas.",
+      "description": "Nesta formação, foi ensinado desde os fundamentos desta linguagem de programação até o seu papel essencial na Web atualmente. Apresentando os conceitos necessários para utilizar o JavaScript na Web, com ênfase no consumo de APIs, convenções e boas práticas.",
       "url": ""
     },
     {
       "name": "Formação CSS Web Developer",
       "date": "agosto de 2025",
       "time": "43 horas",
-      "description": "Dê o próximo passo na sua jornada no mundo do Front-end aprendendo a estilizar e turbinar ainda mais suas páginas Web com Cascading Style Sheets, o famoso CSS. Aprenda na prática a como organizar sua folha de estilos, saiba como trabalhar com animações e domine boas práticas para se tornar um profissional ainda mais bem preparado para criar ou replicar qualquer layout rico quando se trata do posicionamento de elementos em tela e estilização.",
+      "description": "Nesta formação, foi aprendido a estilizar e turbinar ainda mais páginas Web com Cascading Style Sheets (CSS). Demonstrando como organizar a folha de estilos, como trabalhar com animações e suas boas práticas para criar ou replicar qualquer layout rico e bem estilizada.",
       "url": "https://hermes.dio.me/certificates/YM38FKWR.pdf"
     },
     {
       "name": "Formação HTML Web Developer",
       "date": "junho de 2025",
       "time": "21 horas",
-      "description": "entenda como trabalhar com HTML, a base para criar suas primeiras páginas WEB! Aprenda na prática a como estruturar a marcação da sua página e como funciona cada tag, conheça os elementos semânticos e outras boas práticas na hora de construir sua primeira página.",
+      "description": "Nesta formação, foi aprensentado o HTML, a base para criar páginas Web. Aprendendo na prática como estruturar a marcação da página e como funciona cada tag, além dos elementos semânticos e outras boas práticas na hora de construir a página Web.",
       "url": "https://hermes.dio.me/certificates/O1OBBCMY.pdf"
     }
   ],
@@ -92,18 +93,21 @@
   ],
   "professionalExperience": [
     {
-      "name": "Jovem Aprendiz / General Motors",
-      "period": "agosto de 2025 - até o momento",
+      "name": "Jovem Aprendiz - General Motors",
+      "startDate": "agosto de 2025",
+      "endDate": "",
       "description": ""
     },
     {
-      "name": "Jovem Aprendiz / Akaer Engenharia S.A.",
-      "period": "agosto de 2024 - julho de 2025",
+      "name": "Jovem Aprendiz - Akaer Engenharia S.A.",
+      "startDate": "julho de 2024",
+      "endDate": "julho de 2025",
       "description": "Responsável pela manutenção, suporte e configuração da plataforma SoftExpert Suite (SE Suite), mantendo a funcionalidade das operações e melhorias nos processos corporativos; Elaboração de queries em SQL para análise e visualização de dados, como forma de fornecer insights sobre alterações e históricos do sistema, sendo integradas ao SE Suite para uso prático por diferentes áreas da empresa; Mapeamento e construção de fluxogramas de processos utilizando ferramentas específicas, com o objetivo de facilitar a compreensão e o redesenho de processos."
     },
     {
-      "name": "Auxiliar de Loja / Americanas S.A.",
-      "period": "maio de 2024 - julho de 2024",
+      "name": "Auxiliar de Loja - Americanas S.A.",
+      "startDate": "maio de 2024",
+      "endDate":"julho de 2024",
       "description": "Operação de caixa e atendimento ao cliente; Estocagem e reabastecimento dos produtos tanto almoxarifado quanto dentro do próprio estabelecimento, além de fornecer auxílio na organização e distribuição de produtos no varejo."
     }
   ]
