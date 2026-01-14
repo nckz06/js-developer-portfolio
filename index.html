@@ -10,32 +10,32 @@
 <body>
     <div id="background-page">
         <header>
-            <img src="./assets/img/eu.png" alt="Foto de Perfil" class="photo">
+            <img src="./assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile__photo">
             <div class="information">
-                <h1 class="title">Olá, <br>eu sou Nicolas S Nogueira</h1>
+                <h1 class="title">Olá, <br>eu sou <span id="profile__name">Carregando...</span></h1>
                 <ul class="list-information">
                     <li>
-                        <img src="./assets/img/icon-job.png" class="icon-information">
-                        Jovem Aprendiz - General Motors
+                        <img src="./assets/img/icons/job.png" class="icon-information">
+                        <span id="profile__job">Carregando...</span>
                     </li>
                     <li>
-                        <img src="./assets/img/icon-location.png" class="icon-information">
-                        SJC - São Paulo - BR
+                        <img src="./assets/img/icons/location.png" class="icon-information">
+                        <span id="profile__location">Carregando...</span>
                     </li>
                     <li>
-                        <img src="./assets/img/icon-phone.png" class="icon-information">
-                        <a href="tel:(12) 9 8308-7644">(12) 9 8308-7644</a>
+                        <img src="./assets/img/icons/phone.png" class="icon-information">
+                        <a id="profile__phone" href="tel:(12) 9 8308-7644">Carregando...</a>
                     </li>
                     <li>
-                        <img src="./assets/img/icon-email.png" class="icon-information">
-                        <a href="mailto:nsn.nicolas@gmail.com">nsn.nicolas@gmail.com</a>
+                        <img src="./assets/img/icons/email.png" class="icon-information">
+                        <a id="profile__email" href="mailto:nsn.nicolas@gmail.com">Carregando...</a>
                     </li>
                 </ul>
             </div>
         </header>
 
         <main>
-            <section class="habilidades acordeon">
+            <section class="skills acordeon">
                 <div class="trigger">
                     <h2>Skills</h2>
                     <span class="trigger-arrow"></span>
@@ -44,54 +44,34 @@
                 <div class="content">
                     <div id="hard">
                         <h3>Ferramentas:</h3>
-                        <ul>
-                            <li>
-                                <img src="./assets/img/icon-html.svg" alt="HTML" title="HTML">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icon-css.svg" alt="CSS" title="CSS">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icon-js.svg" alt="JavaScript" title="JavaScript">
-                            </li>
-                            <li>
-                                <img src="./assets/img/icon-sql.svg" alt="SQL" title="SQL">
-                            </li>
-                        </ul>
+                        <ul id="profile__hardSkills"></ul>
                     </div>
                     <div id="soft">
                         <h3>Habilidades Pessoais:</h3>
-                        <ul>
-                            <li>Lorem ipsum dolor sit amet consectetur</li>
-                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                        </ul>
+                        <ul id="profile__softSkills"></ul>
                     </div>
                 </div>
             </section>
 
-            <section class="idioma acordeon">
+            <section class="language acordeon">
                 <div class="trigger">
                     <h2>Idiomas</h2>
                     <span class="trigger-arrow"></span>
                 </div>
 
                 <div class="content">
-                    <ul>
-                        <li>Português (BR)</li>
-                        <li>Inglês</li>
-                    </ul>
+                    <ul id="profile__language"></ul>
                 </div>
             </section>
 
-            <section class="educacao acordeon">
+            <section class="courses acordeon">
                 <div class="trigger">
-                    <h2></h2>
+                    <h2>Educação</h2>
                     <span class="trigger-arrow"></span>
                 </div>
 
                 <div class="content">
+                    <ul id="profile__courses"></ul>
                 </div>
             </section>
 
@@ -102,47 +82,33 @@
                 </div>
 
                 <div class="content">
-                    <ul>
-                        <li>
-                            <span class="title github">Teste</span>
-                            <a href="https://www.google.com" target="_blank">Google</a>
-                        </li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                    <ul id="profile__portfolio"></ul>
                 </div>
             </section>
             
-            <section class="experiencia acordeon">
+            <section class="experience acordeon">
                 <div class="trigger">
                     <h2>Experiência Profissional</h2>
                     <span class="trigger-arrow"></span>
                 </div>
     
                 <div class="content">
-                    <ul>
-                        <li>
-                            <span class="title">Teste</span>
-                            <span class="periodo">teste</span>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci praesentium, officiis libero quaerat blanditiis excepturi quisquam autem doloremque consequatur cum, assumenda harum nisi suscipit dignissimos. Molestias perspiciatis ratione adipisci voluptate.
-                            </p>
-                        </li>
-                        <li>
-                            <span class="title">Teste</span>
-                            <span class="periodo">teste</span>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci praesentium, officiis libero quaerat blanditiis excepturi quisquam autem doloremque consequatur cum, assumenda harum nisi suscipit dignissimos. Molestias perspiciatis ratione adipisci voluptate.
-                            </p>
-                        </li>
-                    </ul>
+                    <ul id="profile__professionalExperience"></ul>
                 </div>
             </section>
         </main>
+
+        <footer>
+            <a href="https://www.dio.me" target="_blank">
+                <img src="./assets/img/dio.svg" alt="DIO">
+            </a>
+        </footer>
     </div>
 
+    <!-- Otimização de Imagem: tinypng.com -->
     <script src="./assets/js/script.js"></script>
+    <!-- <script src="./assets/js/acordeon.js"></script> -->
+    <!-- <script src="./assets/js/api.js"></script> -->
+    <!-- <script src="./assets/js/main.js"></script> -->
 </body>
 </html>
-
-<!-- Otimização de Imagem: tinypng.com -->
