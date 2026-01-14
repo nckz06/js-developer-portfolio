@@ -1,4 +1,4 @@
-.experiencia {
+.experience {
     ul {
         display: flex;
         flex-direction: column;
@@ -15,10 +15,11 @@
         margin-bottom: .5rem;
     }
     
-    .periodo {
+    .period {
         display: flex;
-        flex-direction: row;
         align-items: center;
+        margin-right: 1rem;
+        margin-bottom: .5rem;
 
         &::before {
             content: '';
@@ -26,7 +27,7 @@
             width: 1rem;
             height: 1rem;
             margin-right: .5rem;
-            background-image: url('../img/icon-calendar.svg');
+            background-image: url('../img/icons/calendar.svg');
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
@@ -36,5 +37,33 @@
     .title {
         font-weight: 700;
         font-size: 1.25rem;
+    }
+
+    .period + p {
+        margin-right: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    .current {
+        max-width: 150px;
+        text-align: center;
+        margin: 0 0 0 .5rem;
+        padding: .2rem .3rem;
+        border-radius: .3rem;
+        color: #000;
+        background-color: #fff;
+    }
+}
+
+
+
+/* MEDIA QUERY */
+@media screen and ( min-width: 768px ) {
+    .experience {
+        .period {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
     }
 }

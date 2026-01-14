@@ -34,7 +34,7 @@ body::before {
     left: 0;
     width: 100vw;
     height: 80vh;
-    background-image: url('../img/background-top.svg');
+    background-image: url('../img/background.svg');
 }
 
 body::after {
@@ -42,8 +42,8 @@ body::after {
     right: 0;
     width: 100vw;
     height: 80vh;
-    background-image: url('../img/background-bottom.svg');
-    background-position: bottom right;
+    transform: rotate(180deg);
+    background-image: url('../img/background.svg');
 }
 
 main {

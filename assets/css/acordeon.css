@@ -1,6 +1,6 @@
 @import url('skills.css');
 @import url('language.css');
-@import url('education.css');
+@import url('courses.css');
 @import url('portfolio.css');
 @import url('experience.css');
 
@@ -33,7 +33,7 @@
         display: inline-block;
         width: 2rem;
         height: 2rem;
-        background-image: url('../img/icon-arrow.svg');
+        background-image: url('../img/icons/arrow.svg');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;

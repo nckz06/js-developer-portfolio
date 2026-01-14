@@ -28,7 +28,9 @@
             display: inline-block;
             width: 1rem;
             height: 1rem;
-            background-image: url('../img/icon-github.svg');
+            min-width: 1rem;
+            min-height: 1rem;
+            background-image: url('../img/icons/github.svg');
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
@@ -36,12 +38,32 @@
         }
         
         a {
+            display: inline-block;
             color: #fff;
-            text-decoration: none;
+            font-weight: 600;
+            text-decoration: underline;
+            text-overflow: ellipsis;
+            max-width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
 
-            &:hover {
-                text-decoration: underline;
+            &::before {
+                content: '';
+                display: inline-block;
+                width: .8rem;
+                height: .8rem;
+                background-image: url('../img/icons/arrow-right.svg');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin-right: .5rem;
             }
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: .5rem;
+            margin-right: 1rem;
         }
     }
 }
