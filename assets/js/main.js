@@ -57,19 +57,46 @@ function updateLanguage(profileData) {
 
 }
 
+function updateCourses(profileData) {
+
+    const listaHtmlCourses = document.querySelector('#profile__courses')
+    const courses = profileData.courses
+
+    listaHtmlCourses.innerHTML = courses.map(course => {
+        const name = course.name
+        const date = course.date
+        const description = course.description
+        const time = course.time
+        const url = course.url
+
+        return `<li>
+                    <span class="title">${name}</span>
+                    <span class="date ${date == 'Em andamento' ? 'current' : ''}">${date}</span>
+                    <span class="time">${time}</span>
+                    <p>${description}</p>
+                    ${date == 'Em andamento' ? '' : `<a href="${url}" target="_blank">${url}</a>`}
+                </li>`
+    }).join('')
+
+}
+
 function updatePortfolio(profileData) {
 
     const listaHtmlPortfolio = document.querySelector('#profile__portfolio')
     const portfolio = profileData.portfolio
 
-    listaHtmlPortfolio.innerHTML = portfolio.map(e => {
-        const name = e.name
-        const url = e.url
-        const github = e.github
+    listaHtmlPortfolio.innerHTML = portfolio.map(project => {
+        const name = project.name
+        const url = project.url
+        const description = project.description
+        const github = project.github
 
         if(github) {
-            // <li><span class="title github">Teste</span><a href="https://www.google.com" target="_blank">Google</a></li>
-            return `<li><span class="title github">${name}</span><a href="${url}" target="_blank">${url}</a></li>`
+            return `<li>
+                        <span class="title github">${name}</span>
+                        <p>${description}</p>
+                        <a href="${url}" target="_blank">${url}</a>
+                    </li>`
         }
     }).join('')
 
@@ -82,12 +109,13 @@ function updateProfessionalExperience(profileData) {
 
     listaHtmlProfissionalExperience.innerHTML = professionalExperience.map(experience => {
         const name = experience.name
-        const period = experience.period
+        const startDate = experience.startDate
+        const endDate = experience.endDate
         const description = experience.description
 
         return `<li>
                     <span class="title">${name}</span>
-                    <span class="periodo">${period}</span>
+                    <p class="period">${startDate} - ${endDate ? endDate : `<span class="current">Até o momento</span>`}</p>
                     <p>${description}</p>
                 </li>`
     }).join('')
@@ -101,6 +129,7 @@ function updateProfessionalExperience(profileData) {
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguage(profileData)
+    updateCourses(profileData)
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
 
