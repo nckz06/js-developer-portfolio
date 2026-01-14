@@ -79,9 +79,9 @@
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+      "name": "Clone do site da HBO Max com Animações",
       "url": "https://nckz06.github.io/hbomax/",
-      "description": "Clone do HBOMax com HTML e CSS contendo algumas modificações. Projeto de desafio final para a Trilha de CSS da Digital Innovation One. Para acrescentar elementos diferentes ao site original, foram criados elementos animados com CSS para agregar à experiência do usuário.",
+      "description": "Clone do HBO Max com HTML e CSS contendo algumas modificações. Projeto de desafio final para a Trilha de CSS da Digital Innovation One. Para acrescentar elementos diferentes ao site original, foram criados elementos animados com CSS para agregar à experiência do usuário.",
       "github": true
     },
     {
@@ -96,13 +96,13 @@
       "name": "Jovem Aprendiz - General Motors",
       "startDate": "agosto de 2025",
       "endDate": "",
-      "description": ""
+      "description": "Responsável pela criação e manutenção de aplicações com a utilização da ferramenta Power Apps; Criação e aprimoramento de dashboards para insights com o uso do Power BI; Além de trazer soluções e automatização para auxiliar outros colaboradores em suas funcionalidades."
     },
     {
       "name": "Jovem Aprendiz - Akaer Engenharia S.A.",
       "startDate": "julho de 2024",
       "endDate": "julho de 2025",
-      "description": "Responsável pela manutenção, suporte e configuração da plataforma SoftExpert Suite (SE Suite), mantendo a funcionalidade das operações e melhorias nos processos corporativos; Elaboração de queries em SQL para análise e visualização de dados, como forma de fornecer insights sobre alterações e históricos do sistema, sendo integradas ao SE Suite para uso prático por diferentes áreas da empresa; Mapeamento e construção de fluxogramas de processos utilizando ferramentas específicas, com o objetivo de facilitar a compreensão e o redesenho de processos."
+      "description": "Responsável pela manutenção, suporte e configuração da plataforma SoftExpert Suite (SE Suite), mantendo a funcionalidade das operações e proporcionando melhorias nos processos corporativos; Elaboração de queries em SQL para análise e visualização de dados, como forma de fornecer insights sobre alterações e históricos do sistema, sendo integradas ao SE Suite para uso prático por diferentes áreas da empresa; Mapeamento e construção de fluxogramas de processos utilizando ferramentas específicas, com o objetivo de facilitar a compreensão e o redesenho de processos."
     },
     {
       "name": "Auxiliar de Loja - Americanas S.A.",
